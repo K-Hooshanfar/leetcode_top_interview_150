@@ -23,17 +23,14 @@ class Solution:
                 else:
                     nums1[m + j] = nums2[j]
 
-        print(nums1)
-
-
-
+            print(nums1)
 
 
 # Example of how to run this:
-nums1 = [2]
-m = 1  # the number of initialized elements in nums1
-nums2 = []
-n = 0  # the number of elements in nums2
+nums1 = [1,2,3,0,0,0]
+m = 3  # the number of initialized elements in nums1
+nums2 = [2,5,6]
+n = 3  # the number of elements in nums2
 
 sol = Solution()
 sol.merge(nums1, m, nums2, n)
