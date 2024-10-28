@@ -8,11 +8,10 @@ class Solution:
         if m == 0:
             nums1[:n] = nums2[:n]
 
-        for t in range(m):
-            for i in range(m - 1):
-                # print(A)
-                if nums1[i] > nums1[i + 1]:
-                    nums1[i], nums1[i + 1] = nums1[i + 1], nums1[i]
+        # for i in range(m - 1):
+        #     # print(A)
+        #     if nums1[i] > nums1[i + 1]:
+        #         nums1[i], nums1[i + 1] = nums1[i + 1], nums1[i]
 
         for j in range(n):
             for t in range(m + j):
