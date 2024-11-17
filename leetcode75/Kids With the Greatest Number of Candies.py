@@ -5,10 +5,9 @@ class Solution:
         max_candies = max(candies)
         for i in range(len(candies)):
             if candies[i] + extraCandies >= max_candies:
-                candies[i] = 'True'
+                candies[i] = True
             else:
-                candies[i] = 'False'
-
+                candies[i] = False
         return candies
 
 
